@@ -1,0 +1,25 @@
+The goal is to help you maintain a big picture as well as the progress of the task. Always refer to the Scratchpad when you plan the next step.
+
+# Tools
+
+Note all the tools are in typescript. So in the case you need to do batch processing, you can always consult the typescript files and write your own script.
+
+## Search engine
+
+You could use the `bunx grigri-ai-tools search` command to search the web.
+
+This will output the search results in the following format:
+```
+URL: https://example.com
+Title: This is the title of the search result
+Snippet: This is a snippet of the search result
+```
+
+## Specified lessons
+
+- Include info useful for debugging in the program output.
+- Read the file before you try to edit it.
+- Use LLM to perform flexible text understanding tasks. First test on a few files. After success, make it parallel.
+- Always remind me to remove debug logging when the task is done or before I submit the code.
+
+---
