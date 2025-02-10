@@ -1,5 +1,5 @@
 import React, { FC, useState, useRef, useEffect } from 'react';
-import { openai } from '../libs/openai';
+import { openai } from '../lib/openai';
 import DynamicCodeRenderer from '@/components/DynamicCodeRenderer';
 
 interface Message {

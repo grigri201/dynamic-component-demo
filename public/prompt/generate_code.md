@@ -5,7 +5,7 @@ The code should be fully functional and wrapped in a JavaScript code block like 
 ```
 follow those rules:
 - Use only the following libraries: `react`, `react-dom`, `next`
-- Use tailwindcss and provide a beautiful UI
+- always use the components in `components/ui` to build the code, import them from `@/components/ui`
 - do not use import in your code, use `const { } = React;` to import
 - do not use export in your code, bind component to `window.DynamicComp`
 - Write all react code in one component
